@@ -1,0 +1,17 @@
+Animate.css will add different animated effects to each of your components. 
+Normally, it will be set up to played when the html is loaded, but since this is a SAP, meaning other components 
+wont be visible, hence we want that animation to be kicked of once the users see the content.
+Hence, for this we need to use the "react-on-screen" modules to keep track of what is on screen with the TrackVisibility component
+
+# Project-I
+Official git repo for Project I
+
+Instruction 
+- First make a new folder 
+- run npx create-react-app my-app (replace my-app with the project name)
+- run npm install react-bootstrap bootstrap 
+- npm i react-multi-carousel
+-  npm i react-mailchimp-subscribe
+ - npm install animate.css --save 
+ -  npm i react-on-screen
+ - npm i react-bootstrap-icons
