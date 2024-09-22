@@ -14,6 +14,7 @@ function App() {
       <NavBar />
       <Banner />
       <Projects />
+      <Contact/>
     </div> 
   );
 }

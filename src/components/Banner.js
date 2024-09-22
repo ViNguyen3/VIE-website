@@ -55,7 +55,6 @@ export const Banner = () => {
                     {({ isVisible }) =>
                         //if the isVisible is true, then animate_animated animate_fadeIn will work else nothing
                         <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                            {/* <span className="tagline">Welcome to Vi's Resume</span> */}
                             <h1>{'Hi '}<span className="wrap">{text}</span></h1>     
                             <p>Welcome to VIE, we hope you will have a pleasant time with out service.</p>
                             <button className="my-button" onClick={() => console.log('connect')}>Let's Connect<ArrowRightCircle size={25}></ArrowRightCircle></button>
